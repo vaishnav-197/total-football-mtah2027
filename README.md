@@ -1,5 +1,18 @@
 # More than a Hack 2027 — Phase 1: Ball Possession
 
+> **Team Total Football — submission repository.** Our solution is in [`solution/`](solution/):
+> the code is [`solution/possession.py`](solution/possession.py) and the technical document is
+> [`solution/TECHNICAL.md`](solution/TECHNICAL.md). To regenerate our file, put the data bundle in
+> `data/` as [DATA.md](DATA.md) describes, then run:
+>
+> ```bash
+> python3.12 -m venv .venv && .venv/bin/pip install -r solution/requirements.txt
+> .venv/bin/python solution/possession.py --name "Total Football"
+> .venv/bin/python evaluation/validate_submission.py "evaluation/results/Total Football.csv"
+> ```
+>
+> Everything below this box is the organisers' challenge README, unchanged.
+
 **Organised by [Metrica Sports](https://metrica-sports.com), [FC Barcelona](https://www.fcbarcelona.com)
 and the [Mobile World Capital Barcelona](https://www.mwcbarcelona.com)**, at the Talent Arena in Barcelona.
 
